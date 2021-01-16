@@ -37,8 +37,8 @@ function draw() {
 
   if(food!==undefined){
 
-  if (keyWentDown(UP_ARROW)&&food>=0){
-    writeStock(food);
+  if (food!==0){
+   // writeStock(food);
     dog.addImage(happyImg);
     dog.scale = 0.5;
        
